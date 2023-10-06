@@ -1,0 +1,134 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px #120e0e;
+  border-radius: 8px;
+}
+
+.outer-container {
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  height: 100vh;
+}
+
+label {
+  font-size: 25px;
+  font-weight:lighter
+}
+
+input[type='text'] {
+  width: 20%;
+  padding: 12px;
+  margin-top: 5px;
+  border: 2px solid #0c0808;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  height: 1px;
+
+}
+
+body {
+  color: #2f3130;
+}
+
+button[type='submit'] {
+  display:inline;
+  width: 12%;
+  padding: 12px;
+  background-color: #47b80b;
+  border: 2px solid #0c0808;
+  border-radius: 4px;
+  cursor:pointer;
+  margin-top: 1px;
+  /* color: #130e0e; */
+
+}
+
+button[type='submit']:hover {
+  background-color:#0c8316;
+}
+
+form {
+  max-width: 600px; /* Set a max width for the form to control its width */
+  margin: 0 auto; Horizontally center the form within its parent container
+  display:block;
+  /* flex-direction: column; Stack form elements vertically */
+  /* align-items: center; Center form elements horizontally */
+  /* justify-content: center; Center form elements vertically */
+  /* min-height: 100vh; Ensure the form takes up at least the full viewport height */
+  padding: 20px;
+  border: 1.5px solid #131212;
+  border-radius: 8px;
+  
+}
+
+
+ol {
+  display: block;
+  list-style-type: decimal;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  background-color:#47b80b;
+  border: 1px solid #0c0808;
+  font-size: 25px;
+  border-radius: 4px;
+
+}
+
+li {
+  border: 1px solid #0c0808;
+  background-color: #909694;
+}
+
+li:nth-child(odd) {
+  background-color: #cad3d0
+}
+
+h2 {
+  font-weight:lighter
+  font-size: 30px;
+}
+
+.delete-button {
+  display:grid;
+  justify-content: center;
+  align-content: center;
+  padding: 5px;
+  /* border: 0.5px solid #0c0808; */
+  font-size: 10px;
+  width: 10%;
+  cursor: pointer;
+  background-color: #b4adad;
+  ;
+}
+
+.edit-button {
+  justify-content: center;
+  align-content: center;
+  padding: 5px;
+  width: 10%;
+  display: block;
+  background-color: #b4adad;
+  /* border: 0.5px solid #0e0c0c */
+  font-size: 10px;
+  cursor: pointer;
+
+}
+
+.delete-button:hover {
+  background-color: #8a8686;
+}
+
+.edit-button:hover {
+  background-color: #8a8686;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #888;
+}
